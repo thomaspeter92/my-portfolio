@@ -1,0 +1,30 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        rgba($color-primary-light, .8), 
+        rgba($color-primary-light, 1)), 
+    url(../assets/img/header-img.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    overflow: hidden;
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -25%);
+    }
+
+    &__img {
+        width: 60%;
+        position: absolute;
+        right: 1%;
+        bottom: 5%;
+        animation: bulge 3s infinite;
+
+        img {
+            width: 100%;
+        }
+    }
+}
