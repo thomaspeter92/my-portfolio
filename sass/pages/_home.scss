@@ -1,5 +1,7 @@
 .section-bio {
-    margin-top: 5rem;
+    padding: 5rem 0;    
+    background-image: url(../assets/img/background-html.png);
+    background-size: cover;
 
     &__img {
         width: 100%;
@@ -8,12 +10,12 @@
 }
 .section-projects {
     padding: 5rem 0;
-    margin-top: 5rem;
     background-color: $color-primary-light;
 }
 .section-skills {
     margin: 5rem auto;
     width: 60%;
+   
 
     &__skill-bubble {
         text-transform: uppercase;

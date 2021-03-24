@@ -252,14 +252,15 @@ body {
   color: #E6F6FF; }
 
 .section-bio {
-  margin-top: 5rem; }
+  padding: 5rem 0;
+  background-image: url(../assets/img/background-html.png);
+  background-size: cover; }
   .section-bio__img {
     width: 100%;
     border-radius: 5px; }
 
 .section-projects {
   padding: 5rem 0;
-  margin-top: 5rem;
   background-color: #E6F6FF; }
 
 .section-skills {
